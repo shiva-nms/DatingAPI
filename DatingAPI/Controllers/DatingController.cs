@@ -153,9 +153,9 @@ namespace DatingAPI.Controllers
                 MatchModel matchModel = new MatchModel();
 
                 var value = Users.Where(u => u.FullName != matchUser.FullName).
-                                  Select(x => new { Distance = Util.CalculateDistance(x.Location, matchUser.Location), x.FullName, x.Email , x.Gender}).ToList();
+                                  Select(x => new { Distance = Util.CalculateDistance(x.Location, matchUser.Location), x.FullName, x.Email , x.Gender}).ToList(); //// Calculaet Distance based on User location
 
-               var matchresult = value.Where(x => x.Gender != matchUser.Gender && x.Distance <= distance).ToList();
+                var matchresult = value.Where(x => x.Distance <= distance && x.Gender == gender).ToList();// check for Gender and distance
 
                 if (matchresult.Count > 0)
                 {

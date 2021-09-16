@@ -27,6 +27,12 @@ namespace DatingAPI
                 defaults: new { controller = "Dating", action = "Index" }
 
             );
+
+            config.Routes.MapHttpRoute(
+                 name: "Error404",
+                routeTemplate: "{*url}",
+                defaults: new { controller = "Error", action = "Handle404" }
+                );
         }
     }
 }
