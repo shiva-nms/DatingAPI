@@ -5,11 +5,12 @@ using System.Web;
 
 namespace DatingAPI.Models
 {
-    public class Request
+    public class Location
     {
-        public string Name { get; set; }
-        public string Email { get; set; }
-        public string Gender { get; set; }
+        public Location()
+        {
+
+        }
         public double Latitude { get; set; }
         public double Longitude { get; set; }
     }
