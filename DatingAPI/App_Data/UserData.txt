@@ -1,9 +1,0 @@
-﻿  [
-  { "FullName": "Haykush","Email": "Haykush@gmail.com","Gender": "Female","Location": {"Latitude": "33.842790","Longitude": "-118.358016"}}, 
-  { "FullName": "Ken ","Email": "Ken@gmail.com","Gender": "Female","Location": {"Latitude": "33.842790","Longitude": "-118.358016"}},
-  { "FullName": "Jack ","Email": "Jack@gmail.com","Gender": "Female","Location": {"Latitude": "33.842790","Longitude": "-118.358016"}},
-  { "FullName": "Ben ","Email": "Ben@gmail.com","Gender": "male","Location": {"Latitude": "33.842790","Longitude": "-118.358016"}},
-  { "FullName": "Luther ","Email": "Luther@gmail.com","Gender": "Female","Location": {"Latitude": "33.842790","Longitude": "-118.358016"}},
-  { "FullName": "Sha ","Email": "Sha@gmail.com","Gender": "Female","Location": {"Latitude": "33.842790","Longitude": "-118.358016"}},
-  { "FullName": "Dar ","Email": "Dar@gmail.com","Gender": "male","Location": {"Latitude": "33.842790","Longitude": "-118.398018"}}
-  ]
